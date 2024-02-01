@@ -1,2 +1,0 @@
-# FirstFullStack
-TanMin
