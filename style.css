@@ -38,9 +38,8 @@ html {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    position: fixed;
-    left: 300px;
-    
+  
+  
   }
   
   #no {
@@ -55,8 +54,8 @@ html {
     border-radius: 5px;
     cursor: not-allowed;
     margin-left: 10px; /* Optional: Adds some space between 'Yes' and 'No' buttons */
-    position: fixed;
-    left: 500px;
+  
+  
   }
   
   
@@ -75,7 +74,7 @@ html {
       display: flex;
       align-items: center; /* Center vertically */
       justify-content: center;
-      
+  
     }
   
   h1{

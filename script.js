@@ -13,6 +13,11 @@ var msg = document.getElementById("msg");
 var speed = 2000;
 var colorChangeInterval;
 
+imageElement.style.width(screenWidth-100+"px");
+
+imageElement.style.width("auto");
+
+
 function noF() {
   var i = Math.floor(Math.random() * screenWidth);
   var j = Math.floor(Math.random() * screenHeight);
@@ -32,7 +37,8 @@ function yesF() {
   imageElement.src = "https://pic4.zhimg.com/v2-1e69a85d1b48293b3c5192cce5765d5b_b.webp";
   imageElement.alt = "Loopy"; 
   speed = speed+100;
- alert("我爱你哦宝贝 muah muah");
+    alert("我爱你哦宝贝 muah muah");
+
 
 }
 
