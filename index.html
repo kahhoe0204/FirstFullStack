@@ -1,46 +1,53 @@
 <!DOCTYPE html>
-<html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
-
+  <title>Login</title>
+  <link href="style2.css" rel="stylesheet" type="text/css" />
   
 </head>
-
-
-  
 <body>
-  <div class="container">
-    <h1 id="msg">要去Hotel吗宝贝</h1>
-    <div class="content">
-      <img src="https://pic3.zhimg.com/v2-935d900a4e911a5ce2bb040550494486_b.webp" id="imgC" alt="Loopy">
-      <div class="group-button">
-        <button type="button" id="yes">Yes</button>
-        <button type="button" id="no">No</button>
+  <form method="POST" action="databse.php">
+    <fieldset>
+      <legend>Are you Tan Min?</legend> 
+    <section>
+      <article>
+        <aside>
+          <img src="https://media.istockphoto.com/id/1344841941/vector/blue-verified-account-icon-approved-profile-sign-tick-in-rounded-corners-star-top-page-logo.jpg?s=612x612&w=0&k=20&c=Ys81LaNf8DkzKVvB03y0hDQBkkkP5jrRK9lX4htlfRk=" alt="Verify">
+        </aside>
+        <p>
+        <label for="secret">Verificaiton code</label> 
+        </p>
+        <input type="text" name="secret" id="secret" placeholder="#### exp-0203" pattern="[0-9][0-9][0-9][0-9]" required>
+  
+        
+      </article>
       
-
-
+    </section>
+      <div id="submitButton">
+        
+      <input type="button" id="sub" value="SUBMIT" onclick="verifying()">
         
       </div>
-    </div>
-  </div>
-
-  <!-- Yes -->
-<!--https://pic4.zhimg.com/v2-1e69a85d1b48293b3c5192cce5765d5b_b.webp  -->
+    
+    
 
 
-  <!-- No -->
-<!-- https://pic4.zhimg.com/v2-a93b434ad448f3c648da023eebbf4497_b.webp -->
 
+      </fieldset>
+    <p id = "text">
+    
+    </p>
+    
+  </form>
+ 
 
-  <!-- defalut -->
-  <!--https://pic3.zhimg.com/v2-935d900a4e911a5ce2bb040550494486_b.webp  -->
 
   
-  <script src="script.js"></script>
-</body>
+
+
+
+  <script src="script2.js"></script>
+</body>  
 
 </html>

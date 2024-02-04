@@ -1,0 +1,77 @@
+body {
+    background-color: #616161;
+    font-family: 'Times New Roman','Open Sans', sans-serif;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    height: 100vh; /* Set body height to 100% of viewport height */
+    margin: 0; /* Remove default margin */
+  }
+  
+  form{
+    text-align: start;
+    align-items: center;
+    justify-content: center;
+    width: 350px;
+  }
+  
+  legend{
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  
+  fieldset{
+    align-items: start;
+  }
+  
+  article {
+    text-align: left;
+    padding: 10px;
+    padding-top: 0px;
+  }
+  
+  
+  aside{
+    float: right;
+  }
+  
+  input[type="text"]{
+    width: 150px;
+  }
+  
+  #submitButton{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    padding:0px
+  }
+  
+  
+  img {
+    height: auto;
+    width: 100px;
+  
+    margin-top: 0; /* Clear the default margin for better alignment */
+  }
+  
+  #sub{
+    background-color: #043d00;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 6px;
+  
+  }
+  
+  p{
+    text-align: start;
+  
+    padding-top: 2px;
+    margin-left: 10px;
+  }
+  
+  
+  
